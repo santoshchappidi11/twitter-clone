@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #body {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register {
+    height: 90%;
+    width: 45%;
+    margin: auto;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 5px 0 15px 0;
+    border: 1px solid rgb(203, 203, 203);
+  }
+  
+  #body > #register > #sec-1 {
+    height: 40px;
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 15px;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-2 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-2 > #header {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-3 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-3 > #google {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(203, 203, 203);
+  }
+  
+  #body > #register > #sec-3 > #google > h5 {
+    padding: 0 10px;
+  }
+  
+  #body > #register > #sec-4 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-4 > #apple {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(203, 203, 203);
+  }
+  
+  #body > #register > #sec-4 > #apple > h5 {
+    padding: 0 10px;
+  }
+  
+  #body > #register > #sec-5 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-5 > .line {
+    height: 1px;
+    width: 22%;
+    font-weight: lighter;
+    border: 1px solid rgb(203, 203, 203);
+  }
+  
+  #body > #register > #sec-5 > #or > span {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  
+  #body > #register > #sec-6 {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-6 > div {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-6 > div > input {
+    height: 100%;
+    width: 50%;
+    border: none;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+  }
+  
+  #body > #register > #sec-6 > div > input::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+  }
+  
+  #body > #register > #sec-7 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-7 > div {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-7 > div > button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+  
+  #body > #register > #sec-8 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-8 > div {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+  }
+
+  #body > #register > #sec-8 > div > button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  #body > #register > #sec-9 {
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-9 > #signup {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #register > #sec-9 > #signup > h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+  }
+  
+  #body > #register > #sec-9 > #signup > h3 > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(83, 179, 248);
+  }
+  
