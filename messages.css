@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  
+  #body {
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* position: relative; */
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left {
+    height: 120vh;
+    width: 22%;
+    position: fixed;
+    left: 0;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents {
+    height: 100%;
+    width: 78%;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > .left-content {
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    /* border: 1px solid red; */
+  }
+  
+  #body > #left > #left-contents > .left-content > #logo {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > .left-content > #logo > i {
+    color: rgb(29, 155, 240);
+  }
+  
+  #body > #left > #left-contents > .left-content > .left-common {
+    height: 100%;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 0px 20px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* border: 1px solid blue; */
+  }
+  
+  #body > #left > #left-contents > .left-content > .left-common:hover {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  #body > #left > #left-contents > .left-content > .left-common > a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > .left-content > .left-common > a > span {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  #body > #left > #left-contents > #left-button {
+    height: 7%;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > #left-button > #button {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > #left-button > #button > button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    border-radius: 28px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    /* border: 1px solid grey; */
+  }
+  
+  #body > #left > #left-contents > #profile {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+  }
+  
+  #body > #left > #left-contents > #profile > #profile-img,
+  #name,
+  #more {
+    height: 100%;
+    width: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #left > #left-contents > #profile > #profile-img {
+    height: 70%;
+    width: 20%;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(2, 136, 209);
+  }
+  
+  #body > #left > #left-contents > #profile > #profile-img > span {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  #body > #left > #left-contents > #profile > #name {
+    font-size: 13px;
+    width: 65%;
+    /* border: 1px solid black; */
+  }
+  
+  /* ----------------------middle------------------------------------ */
+  
+  #body > #middle {
+    height: 100vh;
+    width: 28%;
+    position: relative;
+    left: 22%;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid rgb(228, 228, 228);
+    border: 1px solid rgb(233, 233, 233);
+}
+
+#body > #middle > #middle-header{
+    height: 50px;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#body > #middle > #middle-header > #header-name > span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#body > #middle > #middle-header > #header-msg{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    /* border: 1px solid black; */
+}
+
+
+#body > #middle > #middle-body{
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  /* border: 1px solid black; */
+}
+
+#body > #middle > #middle-body > h1{
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 8px;
+}
+
+
+#body > #middle > #middle-body > p{
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 25px;
+  line-height: 20px;
+  color: rgb(105, 105, 105);
+}
+
+
+
+#body > #middle > #middle-body > #button{
+  height: 52px;
+  width: 60%;
+  /* border: 1px solid black; */
+}
+
+#body > #middle > #middle-body > #button > button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(29,155,240);
+  /* border: 1px solid black; */
+}
+
+/* -----------------right-section----------------------------- */
+
+  #body > #right {
+      height: 100vh;
+      width: 48%;
+      margin-left: 300px;
+      border: 1px solid rgb(233, 233, 233);
+  }
+  
+  #body > #right > #right-body{
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #right > #right-body > h1{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 8px;
+  }
+  
+  
+  #body > #right > #right-body > p{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 20px;
+    color: rgb(105, 105, 105);
+  }
+  
+  
+  
+  #body > #right > #right-body > #button{
+    height: 52px;
+    width: 60%;
+    /* border: 1px solid black; */
+  }
+  
+  #body > #right > #right-body > #button > button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(29,155,240);
+    /* border: 1px solid black; */
+  }
+  
