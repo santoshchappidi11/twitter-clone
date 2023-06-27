@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <script src="javascript.js"></script>
   </head>
   <body>
     <div id="body">
@@ -57,7 +58,7 @@
           </div>
           <div class="left-content">
             <div class="left-common">
-              <a href="">
+              <a href="lists.html">
                 <i class="fa-regular fa-note-sticky fa-xl"></i>
                 <span>Lists</span>
               </a>
@@ -65,15 +66,15 @@
           </div>
           <div class="left-content">
             <div class="left-common">
-              <a href="">
+              <a href="./Bookmarks.html">
                 <i class="fa-regular fa-bookmark fa-xl"></i>
                 <span>Bookmarks</span>
               </a>
             </div>
           </div>
           <div class="left-content">
-            <div class="left-common">
-              <a href="">
+            <div class="left-common" id="verified">
+              <a href="#">
                 <i class="fa-regular fa-circle-check fa-xl"></i>
                 <span>Verified</span>
               </a>
@@ -89,7 +90,7 @@
           </div>
           <div class="left-content">
             <div class="left-common">
-              <a href="">
+              <a href="./more.html">
                 <i class="fa-solid fa-ellipsis fa-xl"></i>
                 <span>More</span>
               </a>
@@ -606,5 +607,50 @@
         </div>
       </div>
     </div>
+
+    <!-- --------------------MODAL ----------------->
+    <div id="modal-screen" class="hide">
+      <div id="modal">
+        <div id="sec-1">
+          <i
+            class="fa-solid fa-xmark fa-lg"
+            id="close"
+            style="padding-left: 10px; cursor: pointer"
+          ></i>
+          <i
+            class="fa-brands fa-twitter fa-2xl"
+            style="color: rgb(29, 155, 240)"
+          ></i>
+        </div>
+        <div id="sec-2">
+          <h1>Who are You?</h1>
+          <span>Choose the right Verified subscription for you:</span>
+        </div>
+        <div id="sec-3">
+          <div id="sec-3-left">
+            <span>Twitter Blue</span>
+            <h4>I am an individual</h4>
+            <p>For individual and creators</p>
+          </div>
+          <div id="sec-3-right">
+            <span>Verified Organizations</span>
+            <h4>I am an Organization</h4>
+            <p>For business, government agencies, and non-profits</p>
+          </div>
+        </div>
+        <div id="sec-4">
+          <div id="button">
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div id="sec-5">
+          <span>
+            Learn more about <b>Twitter Blue</b> and
+            <b>Verified Organizations</b>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------- -->
   </body>
 </html>
