@@ -89,8 +89,8 @@
             </div>
           </div>
           <div class="left-content">
-            <div class="left-common">
-              <a href="./more.html">
+            <div class="left-common" id="more-button">
+              <a href="#">
                 <i class="fa-solid fa-ellipsis fa-xl"></i>
                 <span>More</span>
               </a>
@@ -651,6 +651,75 @@
         </div>
       </div>
     </div>
-    <!-- ---------------------------- -->
+    <!-- ---------------------------- ------------------------->
+
+    <!-- ----------------------More Modal------------------- -->
+    <div id="more-modal" class="hide">
+      <div id="more-header">
+        <div class="headers">
+          <a href="./connect.html">
+            <span style="font-size: 25px; padding: 0 9px">@</span>
+            <h3>Connect</h3>
+          </a>
+        </div>
+        <div class="headers" id="draft-button">
+          <a href="#">
+            <i
+              class="fa-solid fa-feather-pointed fa-lg"
+              style="padding: 0 10px"
+            ></i>
+            <h3>Drafts</h3>
+          </a>
+        </div>
+      </div>
+      <div id="more-footer">
+        <div class="footers">
+          <h4>Creator Studio</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="footers">
+          <h4>Professional Tools</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="footers">
+          <h4>Settings and Support</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------- -->
+
+    <!-- ----------------------Drafts Modal------------------------ -->
+    <div id="draft-screen" class="hide">
+      <div id="draft-modal">
+        <div id="draft-header-1">
+          <i class="fa-solid fa-arrow-left" id="draft-close" style="cursor: pointer"></i>
+          <h3>Drafts</h3>
+        </div>
+        <div id="draft-header-2">
+          <div class="header-2">
+            <h4>Unsent Tweets</h4>
+          </div>
+          <div class="header-2">
+            <h4>Scheduled</h4>
+          </div>
+        </div>
+        <div id="draft-body">
+          <div id="draft-img">
+            <img
+              src="https://abs.twimg.com/responsive-web/client-web/alarm-clock-400x200.v1.da96e5d9.png"
+            />
+          </div>
+          <div id="draft-text">
+            <h1>Hold that thought</h1>
+            <p>
+              Not ready to send a Tweet just yet? Save it to your drafts or
+              schedule it for later.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------- -->
   </body>
 </html>

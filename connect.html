@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More</title>
-    <link rel="stylesheet" type="text/css" href="./more.css" />
+    <title>Connect</title>
+    <link rel="stylesheet" type="text/css" href="./connect.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -89,8 +89,8 @@
             </div>
           </div>
           <div class="left-content">
-            <div class="left-common">
-              <a href="./more.html">
+            <div class="left-common" id="more-button">
+              <a href="#">
                 <i class="fa-solid fa-ellipsis fa-xl"></i>
                 <span>More</span>
               </a>
@@ -558,11 +558,51 @@
     </div>
     <!-- ---------------------------- ------------------------------>
 
+    <!-- ----------------------More Modal------------------- -->
+    <div id="more-modal" class="hide">
+      <div id="more-header">
+        <div class="headers">
+          <a href="./connect.html">
+            <span style="font-size: 25px; padding: 0 9px">@</span>
+            <h3>Connect</h3>
+          </a>
+        </div>
+        <div class="headers" id="draft-button">
+          <a href="#">
+            <i
+              class="fa-solid fa-feather-pointed fa-lg"
+              style="padding: 0 10px"
+            ></i>
+            <h3>Drafts</h3>
+          </a>
+        </div>
+      </div>
+      <div id="more-footer">
+        <div class="footers">
+          <h4>Creator Studio</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="footers">
+          <h4>Professional Tools</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="footers">
+          <h4>Settings and Support</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------- -->
+
     <!-- ----------------------Drafts Modal------------------------ -->
     <div id="draft-screen" class="hide">
       <div id="draft-modal">
         <div id="draft-header-1">
-          <i class="fa-solid fa-arrow-left" style="cursor: pointer"></i>
+          <i
+            class="fa-solid fa-arrow-left"
+            id="draft-close"
+            style="cursor: pointer"
+          ></i>
           <h3>Drafts</h3>
         </div>
         <div id="draft-header-2">
@@ -590,37 +630,5 @@
       </div>
     </div>
     <!-- -------------------------------------------------- -->
-
-    <!-- ----------------------More Modal------------------- -->
-    <div id="more-modal" class="hide">
-      <div id="more-header">
-        <div class="headers">
-          <span style="font-size: 25px; padding: 0 9px">@</span>
-          <h3>Connect</h3>
-        </div>
-        <div class="headers">
-          <i
-            class="fa-solid fa-feather-pointed fa-lg"
-            style="padding: 0 10px"
-          ></i>
-          <h3>Drafts</h3>
-        </div>
-      </div>
-      <div id="more-footer">
-        <div class="footers">
-          <h4>Creator Studio</h4>
-          <i class="fa-solid fa-angle-down"></i>
-        </div>
-        <div class="footers">
-          <h4>Professional Tools</h4>
-          <i class="fa-solid fa-angle-down"></i>
-        </div>
-        <div class="footers">
-          <h4>Settings and Support</h4>
-          <i class="fa-solid fa-angle-down"></i>
-        </div>
-      </div>
-    </div>
-    <!-- ---------------------------------------------------- -->
   </body>
 </html>
