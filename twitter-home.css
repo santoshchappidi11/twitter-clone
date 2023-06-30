@@ -379,11 +379,11 @@
   /* border: 2px solid black; */
 }
 
-#body > #middle > #posts > .post > .post-header,
+/* #body > #middle > #posts > .post > .post-header,
 .post-body,
 .post-footer {
-  /* border: 1px solid black; */
-}
+  border: 1px solid black;
+} */
 
 #body > #middle > #posts > .post > .post-header {
   height: 18%;
@@ -1076,8 +1076,6 @@
   font-size: 15px;
 }
 
-
-
 /* ----------------------Draft Modal-------------------------- */
 #draft-screen {
   height: 100vh;
@@ -1177,4 +1175,124 @@
 #draft-screen > #draft-modal > #draft-body > #draft-text > p {
   font-size: 14px;
   color: rgb(66, 66, 66);
+}
+
+/* ----------------------------Professionals-Modal------------------------ */
+
+#professionals-screen {
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+#professionals-screen > #professionals-modal {
+  height: 580px;
+  width: 44%;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding: 8px 0;
+  background-color: white;
+}
+
+#professionals-screen > #professionals-modal > #prof-header {
+  height: 8%;
+  width: 55%;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#professionals-screen > #professionals-modal > #prof-body {
+  height: 75%;
+  width: 100%;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-img {
+  height: 68%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-img > img {
+  height: 100%;
+  width: 100%;
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-desc {
+  height: 40%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-desc > h1 {
+  padding: 5px 0;
+  font-size: 30px;
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-desc > p,
+span {
+  font-size: 14px;
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-desc > p {
+  padding: 5px 0;
+  font-weight: 400;
+  color: rgb(86, 91, 95)
+}
+
+#professionals-screen > #professionals-modal > #prof-body > #prof-desc > span {
+  padding: 12px 0;
+  color: rgb(86, 91, 95)
+}
+
+#professionals-screen
+  > #professionals-modal
+  > #prof-body
+  > #prof-desc
+  > span
+  > b {
+  color: rgb(81, 178, 243);
+  font-weight: 400;
+}
+
+#professionals-screen > #professionals-modal > #prof-footer {
+  height: 18%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#professionals-screen > #professionals-modal > #prof-footer > #prof-button {
+  height: 52%;
+  width: 75%;
+  /* border: 1px solid black; */
+}
+
+#professionals-screen
+  > #professionals-modal
+  > #prof-footer
+  > #prof-button
+  > button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 28px;
 }

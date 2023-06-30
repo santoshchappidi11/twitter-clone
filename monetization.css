@@ -1,0 +1,552 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#body {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  /* position: relative; */
+  /* border: 1px solid black; */
+}
+
+#body > #left {
+  height: 120vh;
+  width: 22%;
+  position: fixed;
+  left: 0;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents {
+  height: 100%;
+  width: 78%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > .left-content {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  /* border: 1px solid red; */
+}
+
+#body > #left > #left-contents > .left-content > #logo {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > .left-content > #logo > i {
+  color: rgb(29, 155, 240);
+}
+
+#body > #left > #left-contents > .left-content > .left-common {
+  height: 100%;
+  width: 92%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 25px;
+  padding: 0px 20px;
+  cursor: pointer;
+  /* justify-content: space-between; */
+  /* border: 1px solid blue; */
+}
+
+#body > #left > #left-contents > .left-content > .left-common:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+#body > #left > #left-contents > .left-content > .left-common > a {
+  text-decoration: none;
+  color: black;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > .left-content > .left-common > a > span {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#body > #left > #left-contents > #left-button {
+  height: 7%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > #left-button > #button {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > #left-button > #button > button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: 28px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  /* border: 1px solid grey; */
+}
+
+#body > #left > #left-contents > #profile {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+#body > #left > #left-contents > #profile > #profile-img,
+#name,
+#more {
+  height: 100%;
+  width: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+#body > #left > #left-contents > #profile > #profile-img {
+  height: 70%;
+  width: 20%;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(2, 136, 209);
+}
+
+#body > #left > #left-contents > #profile > #profile-img > span {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#body > #left > #left-contents > #profile > #name {
+  font-size: 13px;
+  width: 65%;
+  /* border: 1px solid black; */
+}
+
+/* ----------------------middle------------------------------------ */
+
+#body > #middle {
+  height: auto;
+  width: 30%;
+  position: relative;
+  left: 22%;
+  border-top: none;
+  border-bottom: none;
+  /* border: 1px solid rgb(228, 228, 228); */
+  /* border: 1px solid black; */
+}
+
+#body > #middle > #middle-header {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#body > #middle > #middle-header > h3 {
+  font-size: 20px;
+  margin: 8px 12px;
+}
+
+#body > #middle > #middle-header > #middle-search {
+  height: 39%;
+  width: 95%;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid rgb(201, 201, 201);
+}
+#body > #middle > #middle-header > #middle-search > input {
+  height: 90%;
+  width: 35%;
+  outline: none;
+  border: none;
+}
+
+#body > #middle > #middle-header > #middle-search > input::placeholder {
+  padding: 0 5px;
+  font-size: 14px;
+  color: rgb(58, 58, 58);
+}
+
+#body > #middle > #middle-body > .setting-options {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+#body > #middle > #middle-body > .setting-options:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+
+#body > #middle > #middle-body > .setting-options:nth-child(2){
+    background-color: rgb(245, 245, 245);
+    border-right: 2px solid rgb(29,155,240);
+}
+
+#body > #middle > #middle-body > .setting-options > p {
+  font-size: 15px;
+  color: rgb(39, 39, 39);
+}
+
+/* -----------------right-section----------------------------- */
+
+#body > #right {
+  height: 100vh;
+  width: 48%;
+  margin-left: 300px;
+  /* border: 1px solid black; */
+}
+
+#body > #right > #monetization-right {
+  height: 100%;
+  width: 95%;
+  border: 1px solid rgb(228, 228, 228);
+}
+
+#body > #right > #monetization-right > #right-1 {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 20px;
+  /* border: 1px solid black; */
+}
+
+#body > #right > #monetization-right > #right-1 > h3 {
+  font-size: 19px;
+}
+
+#body > #right > #monetization-right > #right-2 {
+  height: 23%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#body > #right > #monetization-right > #right-2 > #subscribe {
+  height: 80%;
+  width: 95%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 2px solid rgb(235, 235, 235);
+}
+
+
+#body > #right > #monetization-right > #right-2 > #subscribe:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+#body > #right > #monetization-right > #right-2 > #subscribe > #subscribe-left {
+  height: 100%;
+  width: 75%;
+  /* border: 1px solid black; */
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-left
+  > #sub-head {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 10px 0 0px 5px;
+  /* border: 1px solid black; */
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-left
+  > #sub-head
+  > .fa-user {
+  padding: 0 8px 0 5px;
+  color: rgb(201, 54, 204);
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-left
+  > #sub-head
+  > p {
+  font-size: 14px;
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-right {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  /* border: 1px solid black; */
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-left
+  > #sub-body {
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-left
+  > #sub-body
+  > h4 {
+  font-size: 16px;
+  padding: 2px 0 0 15px;
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-right
+  > #sub-img {
+  height: 92%;
+  width: 78%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#body
+  > #right
+  > #monetization-right
+  > #right-2
+  > #subscribe
+  > #subscribe-right
+  > #sub-img
+  > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------Modal----------------------- */
+
+#modal-screen {
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.4);
+  /* border: 2px solid blue; */
+}
+
+#modal-screen > #modal {
+  height: 520px;
+  width: 45%;
+  margin: auto;
+  margin-top: 55px;
+  border-radius: 15px;
+  padding: 8px 0;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+#modal-screen > #modal > #sec-1 {
+  height: 10%;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  /* border: 1px solid black; */
+}
+
+#modal-screen > #modal > #sec-2 {
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+#modal-screen > #modal > #sec-2 > span {
+  padding: 10px 0;
+}
+
+#modal-screen > #modal > #sec-3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 0;
+  /* border: 1px solid green; */
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-left,
+#sec-3-right {
+  height: 120px;
+  width: 35%;
+  margin: 0 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 0 10px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-left {
+  border: 2px solid rgb(29, 155, 240);
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-left > span {
+  font-size: 13px;
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-left > h4 {
+  font-size: 16px;
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-left > p {
+  font-size: 13px;
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-right > span {
+  font-size: 13px;
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-right > h4 {
+  font-size: 16px;
+}
+
+#modal-screen > #modal > #sec-3 > #sec-3-right > p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#modal-screen > #modal > #sec-4 {
+  height: 11%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  /* border: 1px solid red; */
+}
+
+#modal-screen > #modal > #sec-4 > #button {
+  height: 100%;
+  width: 75%;
+  /* border: 1px solid black; */
+}
+
+#modal-screen > #modal > #sec-4 > #button > button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+#modal-screen > #modal > #sec-5 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+}
+
+#modal-screen > #modal > #sec-5 > span {
+  font-size: 14px;
+}
+
+#modal-screen > #modal > #sec-5 > span > b {
+  color: rgb(29, 155, 240);
+  font-weight: 400;
+}
